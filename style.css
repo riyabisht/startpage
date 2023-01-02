@@ -1,17 +1,20 @@
+@import url("font.css");
+
 body {
-  font-family: sans-serif, monospace;
+  font-family: 'Zilla Slab', sans-serif, monospace;
   font-size: xx-large;
   background: #282a36;
   color: #f8f8f2;
   text-shadow: 1px 1px 2px #222;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Ubuntu", sans-serif, monospace;
+  font-family: 'Zilla Slab', sans-serif, monospace;
   color: #f8f8f2;
   font-weight: 700;
   padding: 6px;
@@ -37,7 +40,7 @@ input:focus {
 }
 
 a,
-a > span {
+a>span {
   position: relative;
   color: #999;
   text-decoration: none;
@@ -51,8 +54,8 @@ a:hover {
 
 a:before,
 a:after,
-a > span:before,
-a > span:after {
+a>span:before,
+a>span:after {
   content: "";
   position: absolute;
   transition: transform 0.3s ease-in-out;
@@ -137,7 +140,7 @@ ul {
 }
 
 #clock {
-  font-family: sans-serif, monospace;
+  font-family: 'Zilla Slab', sans-serif, monospace;
   font-size: 120px;
   color: #81a1c1;
   text-shadow: 1px 1px 2px #222;
@@ -145,12 +148,13 @@ ul {
 }
 
 #date {
-  font-family: sans-serif, monospace;
+  font-family: 'Zilla Slab', sans-serif, monospace;
   font-size: 30px;
   color: #d8dee9;
   text-shadow: 1px 1px 2px #222;
   margin: 1px auto;
 }
+
 .icon {
   width: 1em;
   height: 1em;
